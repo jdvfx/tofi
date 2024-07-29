@@ -59,6 +59,7 @@ sudo apt install meson scdoc wayland-protocols
 
 Then build:
 ```sh
+sudo su
 meson build && ninja -C build install
 ```
 
